@@ -1,8 +1,13 @@
-import TarjetaPelicula from 'src/components/TarjetaPelicula.jsx'
-import ValorarPelicula from 'src/components/ValorarPelicula.jsx'
-import FormularioComentario from 'src/components/FormularioComentario.jsx'
-import BuscadorPeliculas from 'src/components/BuscadorPeliculas.jsx'
-import ListaPeliculas from 'src/components/ListaPeliculas.jsx'
+import TarjetaPelicula from './components/TarjetaPelicula.jsx'
+import ValorarPelicula from './components/ValorarPelicula.jsx'
+import FormularioComentario from './components/FormularioComentario.jsx'
+import BuscadorPeliculas from './components/BuscadorPeliculas.jsx'
+import ListaPeliculas from './components/ListaPeliculas.jsx'
+import CampoBusqueda from './components/CampoBusqueda.jsx'
+import FormularioResena from './components/FormularioResena.jsx'
+
+
+
 import './App.css'
 
 const handleClick = (event) => {
@@ -21,7 +26,9 @@ function App() {
       <ValorarPelicula titulo="Estación de niebla" />
       <FormularioComentario />
       <BuscadorPeliculas />
-      <ListaPeliculas />
+      <ListaPeliculas/>
+      <FormularioResena />
+
     </main>
   )
 }

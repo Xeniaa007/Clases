@@ -5,7 +5,7 @@ import BuscadorPeliculas from './components/BuscadorPeliculas.jsx'
 import ListaPeliculas from './components/ListaPeliculas.jsx'
 import CampoBusqueda from './components/CampoBusqueda.jsx'
 import FormularioResena from './components/FormularioResena.jsx'
-
+import Contador from './components/Contador.jsx'
 
 
 import './App.css'
@@ -28,7 +28,7 @@ function App() {
       <BuscadorPeliculas />
       <ListaPeliculas/>
       <FormularioResena />
-
+      <Contador/>
     </main>
   )
 }
